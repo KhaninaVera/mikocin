@@ -22,7 +22,6 @@ main {
 	max-width: 1300px;
 	width: 100%;
 	margin: 0 auto;
-    
 }
 
 .container {
@@ -32,45 +31,40 @@ main {
 	align-items: center;
 	font-family: "Roboto", sans-serif;
 	background: no-repeat center url("../img/background-focus.jpg"); 
-	background-size: cover; 
-/*	background-image: url("../img/background-focus.jpg"); 
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	background-size: cover; */
+	background-size: cover;
 	width: 100%;
 	height: 100%;
-	margin-bottom: 100px; 
-
+	margin-bottom: 100px;
 }
+
 .title {
 	display: flex;
 	flex-direction: column;
 }
 
 .header {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
-width: 100%;
-margin: 0 0 50px 0;
-max-width: 1300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	margin: 0 0 50px 0;
+	max-width: 1300px;
 }
 
 #logo_mikocin {
-
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-end;
 	align-self: flex-start;
-	font-family: "Roboto Black";
+	font-family: "Roboto Black", sans-serif;
 	font-size: 20px;
 	z-index: 6;
 	margin: 0 90px 0 0;
 }
 
 .logo {
-width: 60px;
+	width: 60px;
 }
 
 .progress {
@@ -83,14 +77,13 @@ width: 60px;
 
 .item_header {
 	margin: 10px;
-
 }
-.achievements {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: center;
 
+.achievements {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .achievement {
@@ -104,22 +97,16 @@ align-items: center;
 }
 
 .achiev_text {
-
-margin: 0;
+	margin: 0;
 }
 
-
-
 .bg-img {
-/*	display: flex;
-	flex-direction: column;
-	align-items: center;*/
 position: relative;
 	visibility: visible;
 	width: 50%;
 	padding-top: 40px;
-
 }
+
 #foots {
 	position: absolute;
 	width: 90%;
@@ -130,7 +117,6 @@ position: relative;
 	max-width: none;
 	border: none;
 	visibility: visible;
-
 }
 
 #mikocin {
@@ -145,11 +131,11 @@ position: relative;
 	border: none;
 	visibility: visible;
 }
+
 h1 {
 	font-size: 34px;
-	font-family: "Roboto Black";
+	font-family: "Roboto Black", sans-serif;
 	line-height: 1;
-	font-style: black;
 	margin: 0;
 	padding: 0;
 	align-self: flex-start;
@@ -165,8 +151,7 @@ h1 {
 
 .inside_outside {
 	font-size: 25px;
-	font-family: "Roboto Black";
-	font-style: black;
+	font-family: "Roboto Black", sans-serif;
 	margin: 0;
 	padding: 0;
 	align-self: flex-start;
@@ -179,7 +164,6 @@ h1 {
 	margin: 0;
 	padding: 0;
 	align-self: flex-start;
-
 }
 
 #outside {
@@ -189,12 +173,13 @@ h1 {
 	margin: 0;
 	padding: 0;
 	align-self: flex-start;
-
 }
+
 ul {
 	padding: 0;
 	margin: 0;
 }
+
 .complex_list {
 	margin: 20px 0 0 0;
 	padding: 0;
@@ -232,7 +217,7 @@ margin: 15px 0 0 15px;
 .form {
 	display: flex;
 	flex-direction: column;
-/*	justify-content: space-around;*/
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 	width: 20%;
@@ -241,12 +226,11 @@ margin: 15px 0 0 15px;
 	border-color: #94C428;
 	padding: 10px 0 0 0;
 	background-color: #FFFFFF;
-
 }
 
 .info {
 	display: flex;
-	font-family: "Roboto Regular";
+	font-family: "Roboto Regular", sans-serif;
 	font-size: 20px;
 	padding: 10px 0 0 0;
 	margin: 0;
@@ -268,26 +252,26 @@ margin: 15px 0 0 15px;
 	font-size: 12px;
 	margin: 0;
 	line-height: 1;
-	
 }
 
 .price {
-line-height: 1;
-margin: 0;
-padding: 0;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
 }
 
 .old_price {
 
 }
+
 .sale {
 	background-color: #FFC000;
 	border-radius: 5px;
 	padding: 0 10px 0 10px;
 	font: 20px "Roboto Black", black;
 	font-weight: 900;
-	
 }
+
 .price_before::before {
 	display: flex;
 	justify-content: center;
@@ -300,23 +284,25 @@ padding: 0;
 	margin: 0;
 	z-index: 6;
 }
+
 .number {
 	font-size: 34px;
-	font-family: "Roboto Light";
+	font-family: "Roboto Light", sans-serif;
 	margin: 0 5px 0 5px;
 }
-
 
 .old_price, .new_price {
 	display: flex;
 	flex-direction: column;
 }
+
 .form_data {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 input {
 	display: block;
 	line-height: 3;
@@ -327,12 +313,11 @@ input {
 	box-shadow: none;
 	border-color: transparent;
 	width: 100%;
-
 }
 
 .name::before {
-	content: "../img/item_name.png";
-/*	background: url("../img/item_name.png") 0 0 no-repeat;*/
+	content: " ";
+	background: url("../img/item_name.png") 0 0 no-repeat;
 	position: relative;
 	display: flex;
 /*	justify-content: flex-end;
@@ -340,10 +325,9 @@ input {
 	align-items: flex-end;*/
 	width: 20px;
 	height: 24px;
-
 }
 
-.phone: :before {
+.phone::before {
 	content: "";
 	background: url("../img/item_phone.png") 0 0 no-repeat;
 	position: absolute;
@@ -364,10 +348,6 @@ button {
 	padding: 0;
 	width: 90%;
 }
-/*
-#balance {
-	font-size: 14px;
-}*/
 
 .order {
 	font-size: 20px;
@@ -389,17 +369,17 @@ button {
 }
 
 h2 {
-	font-family: "Roboto Bold";
+	font-family: "Roboto Bold", sans-serif;
 	font-size: 32px;
 	line-height: normal;
 	font-weight: 900;
 }
 
 .for_list_illneses {
-font-family: "Roboto Medium";
-font-size: 22px;
-line-height: normal;
-margin: 0;
+	font-family: "Roboto Medium", sans-serif;
+	font-size: 22px;
+	line-height: normal;
+	margin: 0;
 }
 
 .illnesses {
@@ -416,6 +396,7 @@ margin: 0;
 	justify-content: space-between;
 	align-items: center;
 }
+
 .illness {
 	display: flex;
 	flex-direction: column;
@@ -443,11 +424,10 @@ margin: 0;
 	background-color: #BACCDA;
 	margin: 10px 0 20px 0;
 	align-self: flex-start;
-
 }
 
 .illness_list {
-	font-family: "Roboto Medium";
+	font-family: "Roboto Medium", sans-serif;
 	margin: 0 0 0 20px;
 	font-weight: 500;
 	font-size: 18px;
@@ -455,13 +435,13 @@ margin: 0;
 }
 
 .illness_text {
-	font-family: "Roboto Medium";
+	font-family: "Roboto Medium", sans-serif;
 	color: #4F4F4F;
 	font-weight: 400;
 }
 
 fieldset {
-	font-family: "Roboto Medium";
+	font-family: "Roboto Medium", sans-serif;
 	position: relative;
     text-align: center;
     border: 3px solid #f4d3bb;

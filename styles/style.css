@@ -315,27 +315,27 @@ input {
 	width: 100%;
 }
 
-.name::before {
-	content: " ";
-	background: url("../img/item_name.png") 0 0 no-repeat;
-	position: relative;
-	display: flex;
-/*	justify-content: flex-end;
-	align-self: center;
-	align-items: flex-end;*/
-	width: 20px;
-	height: 24px;
-}
+/*.name::before {*/
+/*	content: " ";*/
+/*	background: url("../img/item_name.png") 0 0 no-repeat;*/
+/*	position: relative;*/
+/*	display: flex;*/
+/*!*	justify-content: flex-end;*/
+/*	align-self: center;*/
+/*	align-items: flex-end;*!*/
+/*	width: 20px;*/
+/*	height: 24px;*/
+/*}*/
 
-.phone::before {
-	content: "";
-	background: url("../img/item_phone.png") 0 0 no-repeat;
-	position: absolute;
-	display: block;
-	top: 40%;
-	width: 20px;
-	height: 24px;
-}
+/*.phone::before {*/
+/*	content: "";*/
+/*	background: url("../img/item_phone.png") 0 0 no-repeat;*/
+/*	position: absolute;*/
+/*	display: block;*/
+/*	top: 40%;*/
+/*	width: 20px;*/
+/*	height: 24px;*/
+/*}*/
 
 button {
 	line-height: 0.1;
